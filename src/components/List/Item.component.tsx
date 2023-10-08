@@ -34,7 +34,7 @@ export function Item({
 							<div
 								className={clsx(
 									'flex flex-shrink-0 items-center justify-center w-12 h-12 rounded-full',
-									iconColor === undefined && 'bg-primary-500',
+									iconColor === undefined && 'bg-orange-500',
 								)}
 								style={{
 									backgroundColor:

@@ -48,10 +48,10 @@ export default function TimelinePage({ timeline: rawTimeline }: TimelineProps): 
 									)}
 
 									<div className="relative flex items-center space-x-3 bg-gray-50 bg-opacity-75 dark:bg-gray-900 dark:bg-opacity-75 backdrop-filter backdrop-blur-sm px-2 py-3 border-2 border-gray-200 dark:border-gray-600 rounded-lg">
-										<div className="relative flex items-center justify-center w-12 h-12 bg-primary-500 bg-opacity-15 backdrop-filter backdrop-blur-sm saturate-200 mx-2 px-1 rounded-full">
+										<div className="relative flex items-center justify-center w-12 h-12 bg-orange-500 bg-opacity-15 backdrop-filter backdrop-blur-sm saturate-200 mx-2 px-1 rounded-full">
 											<Icon
 												aria-hidden="true"
-												className="w-6 h-6 text-primary-500"
+												className="w-6 h-6 text-orange-500"
 												icon={event.icon}
 											/>
 										</div>

@@ -14,7 +14,7 @@ export function Error({ routeBlog = true }: ErrorProps): JSX.Element {
 				<div className="flex-grow flex flex-col justify-center max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8">
 					<div className="flex-shrink-0 flex justify-center">
 						<Icon
-							className="h-12 text-primary-500 w-auto"
+							className="h-12 text-orange-500 w-auto"
 							icon="feather:alert-circle"
 						/>
 					</div>

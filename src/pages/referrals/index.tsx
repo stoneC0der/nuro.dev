@@ -117,7 +117,7 @@ export default function ReferralsPage({ referrals }: ReferralsProps): JSX.Elemen
 									title={referral.name}>
 									{referral.bonus && (
 										<div className="m-2 mt-0">
-											<Pill.Standard className="flex items-center justify-center w-full md:pb-2 bg-primary-500 bg-opacity-15 saturate-200 text-sm text-primary-500 rounded-lg">
+											<Pill.Standard className="flex items-center justify-center w-full md:pb-2 bg-orange-500 bg-opacity-15 saturate-200 text-sm text-orange-500 rounded-lg">
 												<Icon
 													className="mt-0.5 mr-2"
 													icon="feather:award"

@@ -27,7 +27,7 @@ export function ElementsStyles(): JSX.Element {
 				}
 
 				a {
-					@apply dark:text-white no-underline rounded transition duration-300 ease-in-out focus:outline-none focus:ring-4 focus:ring-primary-500 focus:ring-offset-2;
+					@apply dark:text-white no-underline rounded transition duration-300 ease-in-out focus:outline-none focus:ring-4 focus:ring-orange-500 focus:ring-offset-2;
 
 					.item {
 						@apply border-b-0 opacity-60 no-underline transition duration-300 ease-in-out;

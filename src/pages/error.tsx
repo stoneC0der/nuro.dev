@@ -15,7 +15,7 @@ export default function Error(): JSX.Element {
 				<div className="flex-grow flex flex-col justify-center max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8">
 					<div className="flex flex-shrink-0 justify-center">
 						<Icon
-							className="h-12 text-primary-500 w-auto"
+							className="h-12 text-orange-500 w-auto"
 							icon="feather:alert-triangle"
 						/>
 					</div>
