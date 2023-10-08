@@ -58,6 +58,8 @@ export async function getPost(slug: string): Promise<Post> {
 	const source = await serialize(content, {
 		scope: data,
 		mdxOptions: {
+			// @TODO Fix me by enabling
+			// @ts-ignore
 			rehypePlugins: [[RehypeAutolinkHeadings, {}]],
 			remarkPlugins: [RemarkCodeTitles, RemarkEmoji, RemarkPrism, RemarkSlug],
 		},
