@@ -105,15 +105,24 @@ export interface GitHubRepo {
 
 export type GitHubRepos = Array<GitHubRepo>;
 
+// export interface Project {
+// 	description: string;
+// 	homepage?: string;
+// 	icon?: string;
+// 	language?: string;
+// 	name: string;
+// 	post?: string;
+// 	template?: boolean;
+// 	url: string;
+// }
+
 export interface Project {
 	description: string;
-	homepage?: string;
 	icon?: string;
-	language?: string;
-	name: string;
-	post?: string;
-	template?: boolean;
+	image?: string;
+	title: string;
 	url: string;
+	git?: string
 }
 
 export interface ProjectPost {

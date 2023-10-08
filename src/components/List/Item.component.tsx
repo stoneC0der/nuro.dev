@@ -13,6 +13,7 @@ interface ItemProps extends WithChildren {
 	actions?: Array<ListAction>;
 	description?: string;
 	icon?: string | ReactNode;
+	image?: string;
 	iconColor?: string;
 	title: string;
 }
@@ -21,7 +22,7 @@ export function Item({
 	actions,
 	children,
 	description,
-	icon,
+	image,
 	iconColor,
 	title,
 }: ItemProps): JSX.Element {
@@ -29,22 +30,34 @@ export function Item({
 		<li className="bg-gray-50 bg-opacity-75 dark:bg-gray-900 dark:bg-opacity-75 backdrop-filter backdrop-blur-sm border border-gray-100 dark:border-gray-500 rounded-lg transition ease-in-out duration-300">
 			<div className="flex flex-col sm:flex-row items-center justify-between px-4 py-4 sm:px-6">
 				<div className="flex flex-1 items-center justify-start w-full">
-					{icon &&
-						(typeof icon === 'string' ? (
-							<div
-								className={clsx(
-									'flex flex-shrink-0 items-center justify-center w-12 h-12 rounded-full',
-									iconColor === undefined && 'bg-orange-500',
-								)}
-								style={{
-									backgroundColor:
-										iconColor !== undefined ? iconColor : undefined,
-								}}>
-								<Icon className="w-6 h-6 text-white" icon={icon} />
-							</div>
-						) : (
-							<>{icon}</>
-						))}
+					{/*{icon &&*/}
+					{/*	(typeof icon === 'string' ? (*/}
+					{/*		<div*/}
+					{/*			className={clsx(*/}
+					{/*				'flex flex-shrink-0 items-center justify-center w-12 h-12 rounded-full',*/}
+					{/*				iconColor === undefined && 'bg-orange-500',*/}
+					{/*			)}*/}
+					{/*			style={{*/}
+					{/*				backgroundColor:*/}
+					{/*					iconColor !== undefined ? iconColor : undefined,*/}
+					{/*			}}>*/}
+					{/*			<Icon className="w-6 h-6 text-white" icon={icon} />*/}
+					{/*		</div>*/}
+					{/*	) : (*/}
+					{/*		<>{icon}</>*/}
+					{/*	))}*/}
+					<div
+						className={clsx(
+							'flex flex-shrink-0 items-center justify-center w-12 h-12 rounded-full',
+							iconColor === undefined && 'bg-orange-500',
+						)}
+						style={{
+							backgroundColor: iconColor ?? undefined,
+						}}>
+						<img src={image} alt={title} className={clsx(
+							'flex flex-shrink-0 items-center justify-center w-12 h-12 rounded-full',
+						)} />
+					</div>
 					<div className="min-w-0 flex-1 px-4">
 						<h1 className="text-gray-700 dark:text-white text-lg font-bold">{title}</h1>
 						{description && (

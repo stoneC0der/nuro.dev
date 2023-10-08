@@ -1,1 +1,46 @@
-[]
+[{
+    "title": "PWA - African based NGO",
+    "description": "Poverty Watch Africa is a multi-dimensional problem that can not be solved by aid but rather requires a a successful implementation of strategies that can bridge the gap between African development objectives and the general well being and aspiration of the population.",
+    "image": "./pva.png",
+    "url": "https://poverty-watch-africa.org/"
+  },
+  {
+    "title": "ReachAfrika - An oline payment service",
+    "description": "Make all payments with convenience. From utility bills, Airtime and Internet Top-up, to TV subscriptions. You can do all this and more on ReachAfrika. ",
+    "image": "./reachafrika.png",
+    "url": "https://reachafrika.com/home"
+  },
+  {
+    "title": "ForceFields Ghana Ltd - Workforce Management Compony",
+    "description": " A company Based in Tarkwa (In the Western Region of Ghana, Forcefields Ghana Limited is a Workforce Management, Labour Hire and Outsourced Employment Solutions Provider offering Temporary Labour Hire and Recruitment Solutions across Construction, Mining Resources and Energy. ",
+    "image": "./forcefields.png",
+    "url": "https://forcefieldsghana.com/"
+  },
+  {
+    "title": "Gh-Top - Community based sharing site",
+    "description": "Developed to help foreigners (students) find he best schools, accommodations, hospitals & restaurant in Ghana. This is a demo, login & registration not working. ",
+    "image": "./gh-top.png",
+    "url": "https://gh-top.ekangdev.com/"
+  },
+  {
+    "title": "HMS - Simple hostel management system",
+    "description": "This is a personal project that was intented for the management of the hostel in which I was leaving, unfortunately it was close. The project will be soon made public on Github ",
+    "image": "./hms.png",
+    "url": "https://github.com/stonec0der/hms",
+    "git": "https://github.com/stonec0der/hms"
+  },
+  {
+    "title": "G Dark - A Visual Studio Code theme",
+    "description": "A personal theme for visual studio code designed to improve code readbility.",
+    "image": "https://raw.githubusercontent.com/stoneC0der/g-dark-theme/master/images/preview.gif",
+    "url": "https://marketplace.visualstudio.com/items?itemName=StoneC0der.g-dark-theme",
+    "git": "https://github.com/stoneC0der/g-dark-theme"
+  },
+  {
+    "title": "Quote of the Day",
+    "description": "They Said So Quote Of The Day for Übersicht",
+    "image": "https://github.com/stoneC0der/ubersicht-quote-of-the-day/raw/dev/screenshot.png?raw=true",
+    "url": "https://github.com/stoneC0der/ubersicht-quote-of-the-day",
+    "git": "https://github.com/stoneC0der/ubersicht-quote-of-the-day"
+  }
+]
