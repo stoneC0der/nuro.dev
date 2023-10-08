@@ -1,7 +1,7 @@
 import { useTheme } from 'next-themes';
 
-import { Status } from '~/components';
-import { usePersistantState, useStatus } from '~/lib';
+// import { Status } from '~/components';
+import { usePersistantState, /**useStatus*/ } from '~/lib';
 
 import { NavigationItemType, Theme } from '~/types';
 
@@ -64,7 +64,7 @@ export function useNavigation(): {
 } {
 	const state = usePersistantState();
 	const { animations: background, sound } = state.get();
-	const { color, loading, status } = useStatus();
+	// const { color, loading, status } = useStatus();
 	const { theme, setTheme } = useTheme();
 
 	const menuItems: NavigationItems = [
