@@ -57,8 +57,8 @@ export default function HomePage(): JSX.Element {
 							scale: [0.75, 1],
 						}}
 						className="text-gray-500 dark:text-white text-5xl sm:text-6xl md:text-6xl lg:text-8xl tracking-tight font-extrabold">
-						Hey <span className="inline-block origin-70 hover:(animate-wave)">👋</span>{' '}
-						I&apos;m Cedric, <br className="hidden sm:block" />a{' '}
+						Hey <span className="inline-block origin-70 hover:(animate-bounce)">👨🏾‍💻</span>{' '}
+						I&apos;m StoneC0der, <br className="hidden sm:block" />a{' '}
 						<Pill.Standard className="mt-4">developer</Pill.Standard>
 					</Animate>
 
@@ -85,7 +85,7 @@ export default function HomePage(): JSX.Element {
 										y: [50, 0],
 										opacity: [0, 1],
 									}}
-									className="w-full sm:w-auto"
+									className="w-full sm:w-auto animate-pulse"
 									key={index}
 									transition={{
 										delay: 0.1 * (index + 2) + 0.5,

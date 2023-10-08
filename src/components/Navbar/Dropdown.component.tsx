@@ -110,12 +110,16 @@ export function Dropdown({ children, items, position = 'top-left' }: StandardPro
 																onClick={(): void =>
 																	item.onClick()
 																}>
-																<MenuButtonIcon icon={item.icon} />
+																<MenuButtonIcon
+																	className="text-orange-500"
+																	icon={item.icon}
+																/>
 																{item.text}
 																{item.endIcon && (
 																	<>
 																		<span className="flex-1" />
 																		<MenuButtonIcon
+																			className="text-orange-500"
 																			direction="right"
 																			icon={item.endIcon}
 																		/>
@@ -138,11 +142,13 @@ export function Dropdown({ children, items, position = 'top-left' }: StandardPro
 																	rel="noopener noreferrer"
 																	target="_blank">
 																	<MenuButtonIcon
+																		className="text-orange-500"
 																		icon={item.icon}
 																	/>
 																	{item.text}
 																	<span className="flex-1" />
 																	<MenuButtonIcon
+																		className="text-orange-500"
 																		direction="right"
 																		icon="feather:external-link"
 																	/>
@@ -150,10 +156,12 @@ export function Dropdown({ children, items, position = 'top-left' }: StandardPro
 															);
 
 														return (
+															// Main links buttons
 															<MenuLink
 																active={active}
 																href={item.href}>
-																<MenuButtonIcon icon={item.icon} />
+																<MenuButtonIcon
+																	className="text-orange-500" icon={item.icon} />
 																{item.text}
 															</MenuLink>
 														);

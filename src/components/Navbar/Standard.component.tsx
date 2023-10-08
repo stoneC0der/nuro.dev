@@ -12,12 +12,12 @@ export function Standard(): JSX.Element {
 				<div className="relative flex items-center justify-between h-16">
 					<Navbar.Dropdown items={menu} position="top-left">
 						<Button.Icon aria-label="Menu">
-							<Navbar.Icon icon="feather:menu" />
+							<Navbar.Icon icon="feather:menu" className="text-orange-900" />
 						</Button.Icon>
 					</Navbar.Dropdown>
 					<Navbar.Dropdown items={settings} position="top-right">
 						<Button.Icon aria-label="Settings">
-							<Navbar.Icon icon="feather:settings" />
+							<Navbar.Icon icon="feather:settings" className="text-orange-900" />
 						</Button.Icon>
 					</Navbar.Dropdown>
 				</div>
