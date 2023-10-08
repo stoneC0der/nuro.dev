@@ -33,7 +33,7 @@ export default function TimelinePage({ timeline: rawTimeline }: TimelineProps): 
 	}));
 
 	return (
-		<Layout.Default seo={{ title: 'nuro ─ timeline' }}>
+		<Layout.Default seo={{ title: 'StoneC0der ─ timeline' }}>
 			<div className="flex flex-grow min-h-screen pt-16 pb-12">
 				<div className="flex-grow flex flex-col justify-center max-w-sm sm:max-w-2xl w-full mx-auto px-0 sm:px-16">
 					<ul className="-mb-8" role="list">
@@ -61,7 +61,7 @@ export default function TimelinePage({ timeline: rawTimeline }: TimelineProps): 
 												<span>{event.title}</span>
 												<span className="flex-1 sm:hidden" />
 												<Pill.Date className="mt-2 sm:mt-0" small={true}>
-													{format(event.date, 'PPP')}
+													{format(event.date, 'Y')}
 												</Pill.Date>
 											</h1>
 

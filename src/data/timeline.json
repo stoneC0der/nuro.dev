@@ -1,74 +1,56 @@
 [
 	{
-		"date": "03-14-2022",
-		"title": "Started @ Wander",
-		"description": "Joined the Wander team",
+		"date": "03-15-2022",
+		"title": "Head Software Engineer (Remote)",
+		"description": "I am in charge of the development process of ReachAfrika APIs, as well as Project planing and Management.",
 		"icon": "feather:briefcase",
 		"link": {
-			"text": "Visit Wander",
-			"url": "https://wander.com/"
+			"text": "Visit ReachAfrika",
+			"url": "https://reachafrika.com/home"
 		}
-	},
-	{
-		"date": "10-22-2021",
-		"title": "Launched nuro.dev",
-		"description": "Successfully launched my newly re-designed portfolio",
-		"icon": "feather:award"
 	},
 	{
 		"date": "03-15-2021",
-		"title": "Started @ Attio",
-		"description": "Joined the Attio team",
+		"title": "Lead Developer (Remote)",
+		"description": "I was in charge of the development of APIs, as well as assisting the other teams on the Frontend (Web) and Infrastructure (DevOps)",
 		"icon": "feather:briefcase",
 		"link": {
-			"text": "Visit Attio",
-			"url": "https://attio.com/"
+			"text": "Visit ReachAfrika",
+			"url": "https://reachafrika.com/home"
 		}
 	},
 	{
-		"date": "11-16-2020",
-		"title": "Started @ Aiming.pro",
-		"description": "Joined the Aiming.pro team",
+		"date": "03-15-2020",
+		"title": "Junior Web Developer (Remote)",
+		"description": "I was in charge of the admin panel, working on the front (Vuejs, Tailwind CSS) and the backend (PHP, Laravel).",
 		"icon": "feather:briefcase",
 		"link": {
-			"text": "Visit Aiming.pro",
-			"url": "https://aiming.pro/"
+			"text": "Visit ReachAfrika",
+			"url": "https://reachafrika.com/home"
 		}
 	},
 	{
-		"date": "07-15-2020",
-		"title": "Graduated University!",
-		"description": "Successfully completed my Bachelor's Degree",
-		"icon": "feather:award"
-	},
-	{
-		"date": "10-11-2018",
-		"title": "First Developer Role",
+		"date": "03-15-2020",
+		"title": "Freelance Web Developer",
 		"description": "Began an internship as a junior developer working at Stink Studios",
 		"icon": "feather:briefcase",
 		"link": {
-			"text": "Visit Stink Studios",
-			"url": "https://stinkstudios.com/"
+			"text": "Visit Poverty Watch Africa",
+			"url": "https://poverty-watch-africa.org/"
 		}
 	},
 	{
-		"date": "11-04-2016",
-		"title": "First Job!",
-		"description": "Began my first part-time job as a junior service desk analyist at CreeperHost",
+		"date": "03-15-2019",
+		"title": "Freelance Web Developer",
+		"description": "I was responsable for the design, development and deployment of their Website and currently maintain it.t",
 		"icon": "feather:briefcase",
 		"link": {
-			"text": "Visit CreeperHost",
-			"url": "http://creeperhost.net/"
+			"text": "Visit Force Fields Ghana Ltd",
+			"url": "https://forcefieldsghana.com/"
 		}
 	},
 	{
-		"date": "09-10-2016",
-		"title": "Start University",
-		"description": "Began studying Computer Games Programming at Staffordshire University",
-		"icon": "feather:book"
-	},
-	{
-		"date": "08-09-1997",
+		"date": "03-15-1994",
 		"title": "Birthday!",
 		"description": "I was born the 9th of August 1997",
 		"icon": "feather:gift"
