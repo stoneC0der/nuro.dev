@@ -6,7 +6,7 @@ import { useRef } from 'react';
 import { colors } from '~/lib';
 import VertexShader from './vertex.glsl';
 import FragmentShader from './fragment.glsl';
-
+// Particles background file
 export function Standard(): JSX.Element {
 	const containerRef = useRef<HTMLDivElement | null>(null);
 
@@ -43,7 +43,7 @@ export function Standard(): JSX.Element {
 			log.error('Failed to initialize canvas', error);
 		}
 
-		const numParticles = 100;
+		const numParticles = 10;
 		const position = new Float32Array(numParticles * 3);
 		const random = new Float32Array(numParticles * 4);
 
