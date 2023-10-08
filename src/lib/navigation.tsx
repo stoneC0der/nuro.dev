@@ -69,18 +69,18 @@ export function useNavigation(): {
 
 	const menuItems: NavigationItems = [
 		...staticMenuItems,
-		...(!loading && status.discord_status !== 'offline'
-			? [
-					[
-						{
-							type: NavigationItemType.LINK,
-							icon: <Status.Indicator color={color} pulse />,
-							text: 'Status',
-							href: '/status',
-						} as NavigationItem,
-					],
-			  ]
-			: []),
+		// ...(!loading && status.discord_status !== 'offline'
+		// 	? [
+		// 			[
+		// 				{
+		// 					type: NavigationItemType.LINK,
+		// 					icon: <Status.Indicator color={color} pulse />,
+		// 					text: 'Status',
+		// 					href: '/status',
+		// 				} as NavigationItem,
+		// 			],
+		// 	  ]
+		// 	: []),
 	];
 
 	const settingsItems: NavigationItems = [
