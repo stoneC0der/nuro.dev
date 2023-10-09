@@ -1,6 +1,7 @@
 import clsx from 'clsx';
 import Link from 'next/link';
 import { Icon } from '@iconify/react';
+import Image  from 'next/image';
 
 import { Action } from './Action.component';
 import { ListActionType } from '~/types';
@@ -54,7 +55,7 @@ export function Item({
 						style={{
 							backgroundColor: iconColor ?? undefined,
 						}}>
-						<img src={image} alt={title} className={clsx(
+						<Image src={image} alt={title} width={'100%'} height={'100%'} className={clsx(
 							'flex flex-shrink-0 items-center justify-center w-12 h-12 rounded-full',
 						)} />
 					</div>

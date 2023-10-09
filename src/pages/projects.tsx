@@ -5,7 +5,7 @@ import { ListActionType } from '~/types';
 
 import type { GetStaticProps } from 'next';
 
-import type { ListAction, Project } from '~/types';
+import type { /**ListAction,*/ Project } from '~/types';
 
 interface ProjectProps {
 	stringifiedProjects: string;

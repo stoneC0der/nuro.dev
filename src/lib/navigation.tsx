@@ -33,12 +33,6 @@ const staticMenuItems: Array<Array<NavigationItem>> = [
 			text: 'Timeline',
 			href: '/timeline',
 		},
-		// {
-		// 	type: NavigationItemType.LINK,
-		// 	icon: 'feather:link',
-		// 	text: 'Referrals',
-		// 	href: '/referrals',
-		// },
 	],
 	[
 		// {

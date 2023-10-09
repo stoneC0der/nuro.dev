@@ -18,12 +18,15 @@ const ContentSecurityPolicy = `
  */
 const config = {
 	images: {
+		unoptimized: true,
 		domains: [
 			// Discord assets
 			'cdn.discordapp.com',
 
 			// GitHub assets
 			'raw.githubusercontent.com',
+
+			'github.com',
 
 			// Spotify Album Art
 			'i.scdn.co',

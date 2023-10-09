@@ -21,8 +21,10 @@
 		"analyze": "cross-env ANALYZE=true next build",
 		"dev": "next",
 		"build": "next build",
+		"export": "next export",
 		"postbuild": "next-sitemap",
-		"start": "next start",
+		"start": "NODE_ENV=production node server.js",
+		"ndev": "node server.js",
 		"lint": "next lint",
 		"type-check": "tsc",
 		"format": "prettier --write \"**/*.{css,js,json,jsx,ts,tsx,vue}\""
