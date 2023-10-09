@@ -72,6 +72,7 @@ const config = {
 	},
 	reactStrictMode: true,
 	swcMinify: true,
+    trailingSlash: true,
 	webpack: (config, { dev, isServer }) => {
 		// TODO: Temp disabled as since upgrading `next` to v12.2.3 production builds fail & this seems to be the cause
 		// Replace React with Preact only in client production build
